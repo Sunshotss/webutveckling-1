@@ -1,0 +1,17 @@
+body {
+    background-color: brown;
+}
+main {
+    width: 50%;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+p {
+
+}
+img {
+    width: 100%;
+}
