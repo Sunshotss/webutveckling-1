@@ -1,40 +1,35 @@
 body {
     background-color: brown;
 }
-div {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
 main {
-    width: 100%;
+    width: 30%;
+    height: 100%;
     margin: auto;
-
-
 }
-h1 {
-    text-align: center;
-    margin-top: 100px;
-<<<<<<< HEAD
-    color: whitesmoke;
-
-=======
-}
-p {
-dasdasasdasdasdasdasdasd
->>>>>>> 5d2846310fb46e63a9448baca6cbe7d00437072d
-}
-p {
-    text-align: center;
+h2 {
+    margin-right: 20%;
     color: brown;
     background-color: white;
 }
-img {
+p {
+    text-align: justify;
+    color: brown;
+    background-color: white;
+}
+
+#img1 {
+    width: 100%;
+    aspect-ratio: 4/1;
+    object-fit: cover;
+}
+#img2 {
     width: 20%;
+    aspect-ratio: 2/3;
+    float: right;
+    margin-left: 20px;
+
 }
 img.gurka {
-    width: 10%;
 }
 img.äpple {
     width: 40%;
