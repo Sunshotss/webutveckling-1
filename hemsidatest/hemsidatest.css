@@ -1,0 +1,22 @@
+body {
+    background-image: url("https://preview.redd.it/i-kept-finding-bad-quality-pinkerton-wallpapers-so-i-just-v0-8rpdqn686hfb1.png?width=1080&crop=smart&auto=webp&s=4ffe8865de2e90156d1beac24e32e9619aa3b919");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+      text-align: center;
+      margin: 0;
+      padding: 10vh 0;
+      font-size: 200px;
+      padding-left: 0;
+      padding-right: 0;
+      color: whitesmoke;
+  }
+  
+  main {
+      width: 50%;
+      text-align: justify;
+      margin: auto;
+      color: black;
+  }
