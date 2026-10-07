@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
     /*background-image: url("https://preview.redd.it/i-kept-finding-bad-quality-pinkerton-wallpapers-so-i-just-v0-8rpdqn686hfb1.png?width=1080&crop=smart&auto=webp&s=4ffe8865de2e90156d1beac24e32e9619aa3b919");
     background-size: contain;
@@ -11,37 +15,66 @@ header{
     background-repeat: no-repeat;
     background-position: center;
 }
-nav {
-    background-color: #333333;
+
+
+#navbar {
+    background-color: #189ccc75;
+    backdrop-filter: blur(40px);   
+    position: sticky;
+    top: 0;
+
 }
 
 ul {
-  margin: auto;
-  list-style-type: none;
-  padding: 0;
-  overflow: hidden;
-
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
 }
-
 ul li {
-  float: left;
+    float: left;
 }
-
 ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-
 ul li a:hover:not(.active) {
-  background-color: #111111;
+    background-color: #333333;
 }
 
 ul li a.active {
-  background-color: #04AA6D;
+    background-color: #111111;
 }
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #189ccc75;
+    backdrop-filter: blur(40px);
+}
+#footer a {
+    color: black;
+}
+#footer :hover {
+    background-color: black;
+    color: white;
+}
+
+
+#upp_pil {
+    margin: 100px auto;
+    width: 200px;
+    height: 200px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSQ2vUTVfHHxwCLnjxBOrgJhC0amw99bKOUgKDE1lfHA&s=10");
+    background-size: cover;
+}
+
+
 h1 {
     text-align: center;
     margin: 0;
@@ -56,4 +89,5 @@ main {
     text-align: justify;
     margin: auto;
     color: black;
+    margin-bottom: 100px;
 }
